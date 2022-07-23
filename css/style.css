@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    margin: 0px;
+}
+.contenido {
+    width: 100%;
+    height: 620px;
+    background: url(../img/Fondo0000.jpg);
+    padding: 10px;
+    background-position-x: center;
+    background-repeat: none;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+form {
+    background: url(../img/formulario0000.jpg);
+    background-position-x: center;
+    background-repeat: none;
+    background-size: cover;
+    width: 1050px;
+    height: 550px;
+    margin: auto;
+    box-shadow: -20px 20px 40px 30px #000000;
+}
+form h1{
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+form .columna1 {
+    display: inline-block;
+    width: 45%;
+    height: 70%;
+    text-align: left;
+    margin: 5px 20px;
+    text-align: left;
+    position: relative;
+    left: 40px;
+    top: 60px;
+}
+form .columna1 label{
+    width: 100%;
+    display: block;
+    margin: 10px;
+}
+form .columna1 input{
+    width: 75%;
+    display: block;
+    margin: 5px;
+    padding: 7px 5px;
+    border: none;
+    border-radius: 5px;
+}
+form .columna2 {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    margin: 5px 20px;
+    position: relative;
+    top: 65px;
+}
+form .columna2 label{
+    width: 100%;
+    display: block;
+    margin: 10px;
+}
+form .columna2 input{
+    width: 75%;
+    display: block;
+    margin: 5px;
+    padding: 7px 5px;
+    border: none;
+    border-radius: 5px;
+}
+form .columna1 button{
+    background-color: #cd6725;
+    padding: 15px;
+    margin: 20px 12px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+#registro-js{
+    background-position-x: center;
+    background-repeat: none;
+    background-size: cover;
+    width: 1050px;
+    height: 550px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 3px 3px #000000;
+}
